@@ -1,0 +1,29 @@
+h1{
+    color:gold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+h2{
+    color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+h1::first-letter{
+    color:green;
+}
+.clase{
+    font-size: 100px;
+    color:green;
+
+}
+.clase2{
+    font-size: 40px;
+    color:green;
+}
+#titulo1{
+    color:black;
+    font-variant:calc();
+}
+#titulo2{
+    color:pink;
+    font-style: italic;
+}

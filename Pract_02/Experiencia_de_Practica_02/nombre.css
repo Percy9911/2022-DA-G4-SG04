@@ -1,0 +1,12 @@
+h1{
+    color:gold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+h2{
+    color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+h1::first-letter{
+    color:green;
+}

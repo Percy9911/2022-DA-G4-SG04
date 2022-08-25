@@ -1,0 +1,23 @@
+li a {
+    text-decoration: none;
+    color: red;
+    }
+ul + p {
+        color: red;
+        font-family: 'Times New Roman', Times, serif;
+    }
+div > ul {
+    /*border: 1px solid black;*/
+    background-color: blue;
+    }
+h2 ~ p {
+    margin: 40px 0;
+    background-color: fuchsia;
+    }
+
+div, p, span, ul {
+    text-decoration: underline;
+    }
+div, p, span, em {
+    text-decoration: underline;
+}

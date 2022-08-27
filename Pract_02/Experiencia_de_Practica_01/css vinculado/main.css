@@ -1,0 +1,79 @@
+body{
+    background-color:lightslategray ;
+
+}
+.TITLE{
+    text-align:center; 
+    font-size: 30px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align:center; 
+    font-size: 25px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+
+}
+#nav{
+    background-color:#000 ; 
+    list-style:none; width: 99%; 
+    padding: 18px ; font-size: 25; 
+     
+    text-align: center; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.nav{
+    display:inline-block ;
+    text-align: center; 
+    width: 200px;
+
+    color:antiquewhite ;
+}
+h2{
+    font: size 20px; 
+    text-align: center; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+table{
+
+    border: 4px;
+    align-content: center; 
+    margin: 0 auto; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#grupos{
+    background-color: darkslategrey;
+}
+tr{
+    background-color:darkcyan;
+}
+h4{
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+h5{
+    font-size: 30px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+form{
+    margin: 0 auto;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color:darkgray; width: 200px; 
+
+   
+}
+#log{
+    list-style:none ;
+    padding: 0; 
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}

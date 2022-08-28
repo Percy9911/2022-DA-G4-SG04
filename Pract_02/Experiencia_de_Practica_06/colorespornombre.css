@@ -1,0 +1,35 @@
+body{
+    background:dimgrey;
+}
+header{
+    color:black ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    color: coral;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+table{
+    border-style: double;
+    margin: auto;
+    border-color: bisque;
+    align-content: center;
+    color:azure;
+    width: 400px;
+    height: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ul{
+    color:darkslategrey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2{
+    color: coral;
+    text-align: center;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

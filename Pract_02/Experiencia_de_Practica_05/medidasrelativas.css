@@ -1,0 +1,80 @@
+/*em*/
+form{
+	width: 95em;
+    padding: 1em;
+    border-style: solid;
+    list-style: none;
+}
+form label {
+    display: inline-block;
+    font-size: 1.5em;
+    width: 5em;
+    text-align: left;
+}
+/*ex*/
+#enviar{
+	background-color: #FFE56E;
+	margin: 1ex;
+	margin-left: 20ex;
+	font-size: 3ex;
+}
+/*ch*/
+section#cuatro table{
+	height: 10ch;
+	font-size: 5ch;
+	text-align: center;
+	border-style: solid;
+	border-width: 0.1ch;
+}
+/*rem*/
+#tend {
+    height: 1rem;
+    background-color:  #FFE56E;
+    text-align: center;
+    font-size: 2rem;
+    border-style: solid;
+    border-width: 0.3rem;
+}
+/*vw*/
+#idea{
+	list-style-position: inside;
+	font-size: 3vw;
+	border-style: solid;
+	border-width: 0.2vw;
+	margin: 1vw;
+	background-color: #FFE56E;
+}
+/*vh*/
+#otraidea{
+	font-size: 3vh;
+	border-style: solid;
+	border-width: 0.2vh;
+	margin: 1vh;
+}
+/*lh*/
+
+section#cinco button{
+	font-size: 1lh;
+	margin: 10lh;
+	border-style: solid;
+	border-width: 2lhvmin;
+}
+
+/*vmin*/
+
+section#cinco label{
+	background-color: #FFE56E;
+	font-size: 4vmin;
+	margin: 3vmin;
+	border-style: solid;
+	border-width: 0.1vmin;
+}
+
+/*vmax*/
+section#cinco p{
+	background-color: #FFE56E;
+	font-size: 4vmax;
+	margin: 3vmax;
+	border-style: solid;
+	border-width: 0.1vmax;
+}

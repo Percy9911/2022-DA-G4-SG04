@@ -1,23 +1,36 @@
 li a {
-    text-decoration: none;
-    color: red;
+
+    display:inline-block ;
+   text-align: center; 
+   width: 400px;
     }
 ul + p {
         color: red;
         font-family: 'Times New Roman', Times, serif;
     }
 div > ul {
-    /*border: 1px solid black;*/
-    background-color: blue;
+    background-color: gray;
+    font-family: ""Gill Sans Extrabold", Helvetica, sans-serif";
+    font-size:"40 px";
     }
-h2 ~ p {
-    margin: 40px 0;
-    background-color: fuchsia;
+ul > a {
+    background-color: gray;
+    font-family: ""Gill Sans Extrabold", Helvetica, sans-serif";
+    font-size:"40 px";
     }
+table >
 
 div, p, span, ul {
     text-decoration: underline;
+    font-family: ""Gill Sans Extrabold", Helvetica, sans-serif";
+    font-size:"40 px";
     }
 div, p, span, em {
     text-decoration: underline;
+}
+a{
+    display:inline-block ;
+   text-align: center; 
+   width: 400px;
+    font-size: 50px;
 }

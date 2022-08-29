@@ -1,0 +1,22 @@
+a {
+color: blue;
+}
+
+a[href^="#"] {
+background-color: gold;
+}
+
+a[href*="ucsm" ] {
+color: black;
+background-color: gold;
+}
+
+a[href$=".pe"] {
+color: red;
+background-color: gold;
+}
+
+a[href^="https"][href$=".pe"] {
+background-color: gold;
+
+}

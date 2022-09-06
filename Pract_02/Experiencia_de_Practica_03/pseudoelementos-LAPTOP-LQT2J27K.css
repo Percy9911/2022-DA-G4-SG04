@@ -1,0 +1,28 @@
+/*----------------- SELECTORES DE PSEUDO ELEMENTOS -----------------*/
+p::first-line{
+	font-style: oblique;
+	background: rgb(226, 234, 252);
+}
+p::first-letter{
+	font-size: xx-large;
+	padding-left: 20px;
+}
+*::selection{
+	background-color: rgb(225, 216, 247);
+}
+ul li::after{
+	content: "- link";
+	font-size: smaller;
+}
+form li::before{
+	content: "-.";
+}
+h1::first-letter{
+	color: rgb(255, 84, 0);
+}
+ul li::marker{
+	color: rgb(255, 84, 0);
+	font-size: medium;
+	font-family: serif;
+	list-style: disc;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.item1 { grid-area: Shoes; 
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    }
+.item2 { grid-area: Short; 
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.item3 { grid-area: Chaleco; 
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.item4 { grid-area: MiniShort; 
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.item5 { grid-area: Correa; 
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.item6 { grid-area: ChalecoRojo; 
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.item7 { grid-area: Camisa; 
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.item8 { grid-area: Botas; 
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.item9 { grid-area: Mochila; 
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.grid-container {
+    margin: auto;
+    height: 1700px;
+    width: 1200px;
+  display:grid;
+  grid-template:
+    'Shoes Shoes Shoes Shoes Short Short '
+    'Shoes Shoes Shoes Shoes Short Short'
+    'Shoes Shoes Shoes Shoes Short Short'
+    'Shoes Shoes Shoes Shoes Short Short'
+    'Shoes Shoes Shoes Shoes Chaleco Chaleco'
+    'Shoes Shoes Shoes Shoes Chaleco Chaleco'
+    'Shoes Shoes Shoes Shoes Chaleco Chaleco'
+    'Shoes Shoes Shoes Shoes Chaleco Chaleco'
+    'MiniShort MiniShort Correa Correa Correa Correa '
+    'MiniShort MiniShort Correa Correa Correa Correa'
+    'MiniShort MiniShort Correa Correa Correa Correa'
+    'MiniShort MiniShort Correa Correa Correa Correa'
+    'ChalecoRojo ChalecoRojo Correa Correa Correa Correa'
+    'ChalecoRojo ChalecoRojo Correa Correa Correa Correa'
+    'ChalecoRojo ChalecoRojo Correa Correa Correa Correa'
+    'ChalecoRojo ChalecoRojo Correa Correa Correa Correa'
+    'Camisa Camisa Camisa Camisa Botas Botas '
+    'Camisa Camisa Camisa Camisa Botas Botas'
+    'Camisa Camisa Camisa Camisa Botas Botas'
+    'Camisa Camisa Camisa Camisa Botas Botas'
+    'Camisa Camisa Camisa Camisa Mochila Mochila'
+    'Camisa Camisa Camisa Camisa Mochila Mochila'
+    'Camisa Camisa Camisa Camisa Mochila Mochila'
+    'Camisa Camisa Camisa Camisa Mochila Mochila'
+    ;
+  grid-gap: 7px;
+  background-color:white;
+  padding:5px;
+}
+
+.grid-container > div {
+  background-color:gainsboro;
+  text-align:center;
+  padding: 30px ;
+  font-size: 30px;
+}
+h1{
+    margin-left: 227px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+p{
+    text-align:justify;
+    margin-left: 227px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+</style>
+</head>
+<body>
+<h1>Welcome to Outfitter</h1>
+
+<p>Ejercicio 05 de practica 3</p>
+<p>Replica de una pagina web usando <em><b>grid</b></em> para crear los recuadros</p>
+<p>Este <em><b>grid-layout </b></em>contiene 8 columnas y 24 filas</p>
+
+<div class="grid-container">
+  <div class="item1"><img src="https://oechsle.vteximg.com.br/arquivos/ids/6674986-800-800/1957966.jpg?v=637775444062770000" width="320" height="320" ></div>
+  <div class="item2"><img src="https://media.istockphoto.com/photos/blue-short-pants-for-men-isolated-on-white-background-picture-id1149139173?k=20&m=1149139173&s=612x612&w=0&h=0LdwseUzcXxbtAlV-cKtnWOO3_EdZp10z_Rzhdz5V4g="width="180" height="180"></div>
+  <div class="item3"><img src="https://m.media-amazon.com/images/I/71dQQv6kE8L._AC_UX385_.jpg" width="180" height="180"></div>  
+  <div class="item4"><img src="https://media.istockphoto.com/photos/one-short-blue-jeans-isolated-on-white-picture-id695708092?k=20&m=695708092&s=612x612&w=0&h=p5d63czW7D4UWYZkN6ePozrue9AjMdbA-vNd_rbNkeY=" width="180" height="180"></div>
+  <div class="item5"><img src="https://thumbs.dreamstime.com/b/correa-8751222.jpg"  width="320" height="320"></div>
+  <div class="item6"><img src="https://static.abc.es/media/MM/2019/01/18/Moncler-kDO--862x900@abc.jpg" width="180" height="180"></div>
+  <div class="item7"><img src="https://www.bananarepublic.com.pe/media/catalog/product/cache/small_image/240x300/beff4985b56e3afdbeabfc89641a4582/b/r/br512366_b01_1.jpg" width="320" height="320"></div>
+  <div class="item8"><img src="https://oechsle.vteximg.com.br/arquivos/ids/7778163-800-800/1984336.jpg?v=637836633359930000" width="180" height="180"></div>
+  <div class="item9"><img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/bc3ec908c2d244ab9780aba000f95590_9366/Morral_Classic_Adicolor_(UNISEX)_Negro_GD4529_01_standard.jpg" width="180" height="180"></div>
+</div>
+</body>
+</html>

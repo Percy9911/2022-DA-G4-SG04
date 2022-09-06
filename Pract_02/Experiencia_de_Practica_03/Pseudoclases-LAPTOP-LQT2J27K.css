@@ -1,0 +1,49 @@
+/*----------------- SELECTORES DE PSEUDO CLASES -----------------*/
+
+a:visited {
+   color: rgb(201, 24, 74);
+}
+
+a:hover {
+    font-size: large;
+    color: rgb(6, 214, 160);
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(57, 0, 153);
+}
+a:link{
+    color: rgb(0, 55, 126);
+}
+
+button:hover{
+    border-style: double;
+    background-color: rgb(225, 229, 242);
+}
+
+input:required{
+    border-style: dotted;
+}
+
+input:invalid{
+    background-color: rgb(255, 204, 213);
+    border-color: rgb(201, 24, 74);
+}
+
+input:valid{
+    background-color: rgb(218, 242, 218);
+    border-color: rgb(96, 191, 96);
+}
+
+ ul li:first-child{
+    font-size: x-large;
+}
+
+ul li:nth-last-child(2){
+    font-style: italic;
+}
+ul li:last-of-type{
+    font-family: monospace;
+    font-size: 20px;
+}

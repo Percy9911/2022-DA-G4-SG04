@@ -1,0 +1,64 @@
+.item1 { 
+  display: flex;
+  grid-area: img1; }
+.item2 { 
+  display: flex;
+  grid-area: img2; }
+.item3 { 
+  display: flex;
+  grid-area: img3; }
+.item4 { 
+  display: flex;
+  grid-area: img4; }
+.item5 { 
+  display: flex;
+  grid-area: img5; }
+.item6 { 
+  display: flex;
+  grid-area: img6; }
+.item7 { 
+  display: flex;
+  grid-area: img7; }
+.item8 { 
+  display: flex;
+  grid-area: img8; }
+.item9 { 
+  display: flex;
+  grid-area: img9; }
+.grid-container {
+  display: grid;
+  grid-template:
+    'img1 img2 img3 img3 '
+    'img4 img5 img6 img7 '
+    'img8 img9 img9 img7 ';
+
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 30px;
+
+} 
+
+
+
+@media only screen and (max-width: 900px) {
+  body {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    height: 900px;
+  }
+  @media only screen and (max-width: 480px) {
+  body {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    height: 480px;
+
+  }

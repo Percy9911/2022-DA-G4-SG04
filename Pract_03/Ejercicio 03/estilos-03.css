@@ -1,0 +1,26 @@
+body{
+    background-image: linear-gradient(to right, rgb(105, 125, 238), rgb(233, 233, 127));
+}
+.uno { grid-area: A;}
+.dos { grid-area: B;}
+.tres { grid-area: C;}
+.cuatro { grid-area: D;}
+.cinco { grid-area: E;}
+.seis { grid-area: F;}
+
+.contenedor{
+    display: grid;
+    grid-template:  'A A B B B'
+                    'A A D D E'
+                    'C C D D F';
+    grid-gap: 10px;
+    padding: 10px;
+}
+.contenedor > div{
+    background-color: rgba(202, 202, 247, 0.8);
+    text-align: center;
+    padding: 40px 0;
+    font-size: 50px;
+    border-style: solid;
+    border-radius: 20px;
+}

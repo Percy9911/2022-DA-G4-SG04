@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Exp01</title>
+    <script src="./main-01.js">
+        function cambiar(){
+            document.getElementById("titulo").innerHTML = "Texto cambiado";
+        }
+        document.getElementById("boton2").onclick = function (){
+            cambiar();
+        }
+    </script>
+
+</head>
+<body>
+    <h1 id="titulo" style="color: black;">Esto es una pagina</h1>
+    <div>
+        <button onclick="window.confirm('HOLA')">Boton 1</button>
+        <button id="boton2">Boton 2</button>
+        <button id = "boton3">Boton 3</button>
+    </div>
+</body>
+</html>

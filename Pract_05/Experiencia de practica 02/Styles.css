@@ -1,0 +1,15 @@
+.cabecera{
+	background: #FADBD8 ;
+	font-size: 30px;
+}
+
+.cuerpo{
+	font-family:"Comic Sans MS,Arial,Verdana" ;
+
+	font-size: 40px;
+	height: 60 px;
+	width: 65 px;
+}
+.pag{
+	background-color:#D7BDE2   ;
+}

@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2? family= Montserrat:ital,wght@1,100 & display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,900;1,100;1,200;1,300;1,800;1,900&display=swap");
+body {
+  background-color: cadetblue;
+  font-family: "Montserrat", sans-serif;
+}
+
+table {
+  border-style: double;
+  margin: auto;
+  border-color: bisque;
+  align-content: center;
+  color: azure;
+  width: 800 px;
+  height: 60 px;
+}
+
+header {
+  color: black;
+}
+
+h1 {
+  color: coral;
+  text-align: center;
+}/*# sourceMappingURL=styles_exp06.css.map */

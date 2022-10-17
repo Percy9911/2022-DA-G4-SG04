@@ -1,4 +1,4 @@
-
+#Ejercicio 1
 class Producto:
 
     def __init__(self, codigo, nombre, precio):
@@ -64,7 +64,7 @@ class Cliente:
         return 'Nombre: {}\nEdad: {}\nCorreo: {}'.format(self.nombre, self.edad, self.correo)
 
 
-
+#Ejercicio 2
 daniel = Cliente('Daniel', '20', 'daniel13@gmail.com')
 print(daniel)
                  

@@ -2,7 +2,7 @@
 #1.Escribir el siguiente código en el editor del lenguaje Python
 def file_read(fname):
  txt = open(fname)
- print(txt.read())
+ print(txt.read(2))
 print('text.txt')
 file_read('test.txt')
 print('\nabc.txt')

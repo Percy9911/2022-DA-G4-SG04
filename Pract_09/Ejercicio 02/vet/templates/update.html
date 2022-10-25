@@ -1,0 +1,21 @@
+<html>
+<h1>Actualizar mascota</h1>
+
+<form action="updaterecord/{{ pet.id }}" method="post">
+    {% csrf_token %}
+    Nombre:<br>
+    <input name="nombre" value="{{ pet.nombre }}">
+    <br><br>
+    Propietario:<br>
+    <input name="propietario" value="{{ pet.propietario }}">
+    <br><br>
+    Especie:<br>
+    <input name="especie" value="{{ pet.especie }}">
+    <br><br>
+    Propietario:<br>
+    <input name="raza" value="{{ pet.raza }}">
+    <br><br>
+    <input type="submit" value="Submit">
+</form>
+
+</html>

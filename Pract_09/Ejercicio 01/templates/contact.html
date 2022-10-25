@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARTISTS</title>
+    <link rel="stylesheet" href="../static/css/artist.css">
+</head>
+
+<body>
+    <header>
+        <h1>THE ARTISTS</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="./contact">Contact us</a>
+        </nav>
+    </header>
+    <main>
+
+        {% for ite in contac %}
+        <section>
+            <h1>CONTACT US</h1>
+            <p>Num: {{ite.num}}</p>
+            <p>Correo: {{ite.correo}}</p>
+            <p>insta: {{ite.insta}}</p>
+        </section>
+        {% endfor %}
+    </main>
+</body>
+
+</html>

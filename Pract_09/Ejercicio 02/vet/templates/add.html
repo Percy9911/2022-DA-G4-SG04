@@ -1,0 +1,18 @@
+<h1>Agregar mascota</h1>
+
+<form action="addrecord/" method="post">
+    {% csrf_token %}
+    Nombre:<br>
+    <input name="nombre">
+    <br><br>
+    Propietario:<br>
+    <input name="propietario">
+    <br><br>
+    Especie:<br>
+    <input name="especie">
+    <br><br>
+    Raza:<br>
+    <input name="raza">
+    <br><br>
+    <input type="submit" value="Submit">
+</form>

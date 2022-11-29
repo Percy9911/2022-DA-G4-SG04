@@ -1,0 +1,41 @@
+//CREACION E INSERCION
+use Tienda
+db.createCollection("articulos")
+db.articulos.insertOne({nombre: "Cuaderno", marca: "alpha", descripcion: 
+"100 hojas cuadriculado", precio:30.20})
+db.articulos.insertOne({nombre: "Colores", marca: "artesco", descripcion: 
+"caja 12 colores", precio:18.10})
+db.articulos.insertOne({nombre: "Resaltadores", marca: "stabilo", 
+descripcion: "set 6 colores pastel", precio:24.10})
+
+//MOSTRAR POR PRECIO ASC
+db.articulos.find().sort({precio:1})
+
+//MOSTRAR POR MARCA DESC
+db.articulos.find().sort({marca:-1})
+
+
+//CANTIDAD DE DOCUMENTOS DE UNA COLECCION
+db.articulos.countDocuments()
+
+//$eq
+db.articulos.find({nombre:{$eq:'Colores'}})
+
+//$eq
+db.articulos.find({nombre:{$eq:'Colores'}})
+
+//$ne
+db.articulos.find({nombre:{$ne:'Resaltadores'}})
+
+//$gt
+db.articulos.find({precio:{$gt:20}})
+
+//$gte
+db.articulos.find({precio:{$gte:30.2}})
+
+//$lt
+db.articulos.find({precio:{$lt:25}})
+
+
+//$lte
+db.articulos.find({precio:{$lte:18.1}})
